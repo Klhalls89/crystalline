@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.App {
+  font-family: $sans;
+  text-align: center;
+
+  h1 {
+    font-family: $logo;
+    font-weight: normal;
+    color: $amethyst;
+    padding: 20px;
+  }
+
+}
