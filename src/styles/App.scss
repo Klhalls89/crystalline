@@ -6,11 +6,15 @@
   font-family: $sans;
   text-align: center;
 
+  img {
+    width: 100%;
+  }
+
   h1 {
+    font-size: 42px;
     font-family: $logo;
     font-weight: normal;
     color: $amethyst;
-    padding: 20px;
   }
-
+ 
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import amethyst from '../styles/amethyst.png'
 
 class App extends Component {
   constructor(){
@@ -10,7 +11,10 @@ class App extends Component {
   render(){
     return(
       <div className='App'>
-        <h1>crystalline</h1>
+        <header>
+          <img src={amethyst}/>
+          <h1>crystalline</h1>
+        </header>
       </div>
     )
   }
